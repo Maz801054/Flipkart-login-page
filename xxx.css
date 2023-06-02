@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  margin: 20px auto;
+  width: 678px;
+  height: 531px;
+  background-color: rgb(246, 251, 255);
+}
+.img_ss {
+  width: 270px;
+  height: 528px;
+  background-image: url(./Capture.1.PNG);
+}
+.img_ss_1 {
+  background-image: url(./ccc.PNG);
+  width: 270px;
+  height: 528px;
+}
+.tex_tt {
+  position: relative;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  height: 528px;
+  width: 408px;
+  background-color: rgb(255, 255, 255);
+  padding: 50px 25px;
+  border: 1px solid black;
+}
+.inputbox {
+  position: relative;
+  width: 360px;
+}
+.inputbox input {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  transition: 0.3s;
+}
+.inputbox span {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  transition: 0.3s;
+}
+.inputbox input:valid ~ span,
+.inputbox input:focus ~ span {
+  transform: translateX(-5px) translateY(-25px);
+}
+.p1 {
+  padding-top: 50px;
+  line-height: 25px;
+  font-size: 15px;
+}
+.p1_c {
+  padding-top: 30px;
+  line-height: 25px;
+  font-size: 13px;
+}
+.tex_tt a {
+  text-decoration: none;
+  color: blue;
+}
+.btn {
+  padding: 15px 25px;
+  margin-top: 20px;
+  font-size: 15px;
+  background-color: #fb641b;
+  color: white;
+  border: none;
+  border-radius: 2px;
+}
+.bttn {
+  padding: 15px 25px;
+  margin-top: 20px;
+  font-size: 15px;
+  background-color: #fb641b;
+  color: white;
+  border: none;
+  border-radius: 2px;
+}
+.btnn {
+  padding: 15px 25px;
+  margin-top: 20px;
+  font-size: 15px;
+  background-color: rgb(255, 255, 255);
+  color: blue;
+  border: none;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.181);
+  transition: 0.3s;
+  border-radius: 2px;
+}
+.btnn:hover {
+  background-color: rgba(246, 239, 239, 0.281);
+  transition: 0.3s;
+}
+.p2 {
+  padding-top: 230px;
+  text-align: center;
+}
